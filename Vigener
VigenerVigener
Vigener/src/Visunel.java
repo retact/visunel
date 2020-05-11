@@ -75,14 +75,11 @@ public class Visunel {
 			{
 				runint-=97;
 			}
-			//鍵のcount番号をひく
 			runint+=usekey[count];
-			//もし、引いた数<0なら+25
 			if(runint>25)
 			{
 				runint-=26;
 			}
-			//+65をする
 			runchar=(char)(runint+65);
 			stringb.append(runchar);
 		}
