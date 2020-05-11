@@ -80,6 +80,7 @@ public class Visunel {
 			{
 				runint-=26;
 			}
+			//UNICODEに修正
 			runchar=(char)(runint+65);
 			stringb.append(runchar);
 		}
